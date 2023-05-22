@@ -1,0 +1,149 @@
+
+body {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+    background-image: url();
+    width: 100%;
+    background-color: rgb(233, 242, 242);
+    background-repeat: no-repeat;
+}
+
+.titulo {
+    color: rgb(255, 0, 13);
+    text-align: center;
+    font-family: arial;
+    font-size: 32px;
+}
+
+    
+.parrafo1 {
+    background-color: rgb(208, 173, 203);
+    width: 200px;
+    height:90px;
+    padding: 30px;
+    border: 5px rgb(5, 61, 23);
+    font-size: 20px;
+    font-family: Georgia;
+    color: rgb(4, 59, 53);
+    margin: 20px;
+}
+
+
+@media screen and (max-width: 500px){
+    .parrafo1 {
+        font-family: 'Times New Roman', Times, serif;
+        color: red;
+        margin: 20px;
+        font-size: 18px;
+    }
+}
+
+.banner{
+    position: relative;
+    width: 100;
+    height:   50px ;
+    display: flex;
+    background-image: url(../css3/imagenes/ima.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ .banner img{
+     max-height: 100%;
+     max-width: 100%;
+ }
+
+ ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:aqua
+
+ }
+
+ li {
+    list-style-type: none;
+ }
+
+ a{
+    color: azure;
+    text-decoration: none;
+ }
+ li>a {
+   /* display: block;
+    color: black;
+    text-align: center;*/
+    padding:  8px 24px;
+    
+ }
+
+ li a:hover {
+     background-color: blueviolet;
+ }
+
+ .container-nav{
+    display: flex;
+    padding: 10px;
+    height: 50px;
+    background-color: brown;
+
+ }
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+ }
+ 
+ .brand {
+    display: flex;
+    align-items: center;
+ }
+
+.nav-links{
+display: flex;
+align-items: center;
+ }
+
+.button-menu-toggle{
+    display: none;
+ }
+
+@media (max-width: 768px){
+    .colum {
+        flex: 100%;
+    }
+    .nav-links{
+        display: none;
+    }  
+    .button-menu-toggle{
+        display: block;
+    }    
+}
+
+.button-menu-tpggle{
+    display: block;
+    background-color: azure;
+    border: none;
+    border-radius: 0 24px;
+    padding: 0 24px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+/*.nav-links.links-resposive{
+    position: absolute;
+    display: flex;
+    background-color: aqua;
+    width: 100%;
+    height: 100%;
+    top: 70px;
+    left: 0;
+    flex-direction: column;
+    padding-top: 200px;
+    align-items: center;
+    gap: 70px;;
+    font-size: 40px;
+
+}

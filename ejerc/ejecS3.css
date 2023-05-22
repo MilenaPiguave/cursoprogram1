@@ -1,0 +1,29 @@
+h1 {
+background-color: blueviolet;
+} 
+
+body {
+      width: 100%;
+    background-color: rgb(91, 78, 145);
+    background-repeat: no-repeat;
+}
+ .conteiner {
+    background-color: aqua;
+    margin:50px;
+
+ }
+
+@media screen and (max-width: 600px)  {
+    body { 
+    background-color:chocolate ;
+}
+}
+
+@media screen and (min-width: 400px) {
+   body{
+    background-color: rgb(81, 83, 227);
+   }
+   
+}
+
+
